@@ -1,0 +1,105 @@
+.topo{
+    background-color: grey;
+    height: 200px;
+    margin: 0;
+}
+
+.topo p{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.back{
+    background-color: rgb(131, 55, 87);
+    margin-top: 0;
+   
+}
+
+.back ul{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.back li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+ }
+
+
+
+.back li a:hover{
+    text-decoration: underline;
+    background-color: rgb(150, 8, 67);
+    color: rgb(255, 255, 255);
+    border-top: 2px solid black;
+    
+ }
+
+ .back  a:hover{
+    border: 2px solid black;
+    
+ }
+
+
+
+body{
+    background-color: rgb(192, 192, 192);
+    margin: 0;
+}
+
+.cor{
+    position: relative;
+    right: 20px;
+    margin: 100px;
+    background-color: rgb(43, 40, 40);
+    height: 350px;
+    display: flex;
+    width:87%;
+    flex-direction: row-reverse;
+}
+.cor1{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(221, 13, 100);
+    margin: 5px;
+    margin-top: 70px;
+    border:2px solid white
+}
+
+.cor2{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(221, 13, 100);
+   margin: 5px;
+   margin-top: 70px;
+   border:2px solid white
+}
+
+.cor3{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(221, 13, 100);
+    margin: 5px;
+    margin-top: 70px;
+    border:2px solid white
+}
+
+.cor4{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(221, 13, 100);
+    margin: 5px;
+    margin-top: 70px;
+    border:2px solid white
+}
+
+.cor:hover{
+    background-color: brown;
+}
+
+.cor4:hover{
+    background-color:  rgb(221, 13, 100);
+}
